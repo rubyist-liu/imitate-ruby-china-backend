@@ -38,6 +38,8 @@ defmodule RubyChinaWeb.Endpoint do
     key: "_ruby_china_key",
     signing_salt: "4Uy4siCV"
 
+  plug CORSPlug
+  
   plug RubyChinaWeb.Router
 
   @doc """
